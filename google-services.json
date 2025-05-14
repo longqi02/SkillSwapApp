@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "419382061537",
+    "project_id": "mads-c833a",
+    "storage_bucket": "mads-c833a.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:419382061537:android:82d437931408133cc64aa0",
+        "android_client_info": {
+          "package_name": "com.example.GroupAssignment2"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCrild5EfC4W7hJQV1t_t9DXy9KOIU3yA4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
