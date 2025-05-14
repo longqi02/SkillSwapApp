@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp">
+
+    <!-- 1) Prompt -->
+    <TextView
+        android:id="@+id/tvPrompt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Select the skills you want to match:"
+        android:textSize="16sp"
+        android:layout_marginBottom="8dp"/>
+
+    <!-- 2) Checkboxes -->
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="12dp">
+        <LinearLayout
+            android:id="@+id/checkboxContainer"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+    </ScrollView>
+
+    <!-- 3) Find Matches -->
+    <Button
+        android:id="@+id/btnFindMatches"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="FIND MATCHES"
+        android:layout_marginBottom="12dp"/>
+
+    <!-- 4) ProgressBar -->
+    <ProgressBar
+        android:id="@+id/progressBarMatching"
+        style="?android:attr/progressBarStyleLarge"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:visibility="gone"
+        android:layout_gravity="center"/>
+
+    <!-- 5) RecyclerView for matches -->
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rvMatchResults"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:visibility="gone"
+        app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"/>
+</LinearLayout>
