@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">SkillSwap</string>
+    <string-array name="skill_categories">
+        <item>Programming</item>
+        <item>Cooking</item>
+        <item>Music</item>
+        <item>Language</item>
+        <item>Others</item>
+    </string-array>
+    <string name="ask_something">Ask something…</string>
+    <string name="send">Send</string>
+    <string name="close">Close chat</string>
+    <string name="match_recommendation">We recommend: %1$s</string>
+</resources>
